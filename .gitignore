@@ -1,0 +1,34 @@
+composer.phar
+/vendor/
+
+# Конфиги с доступами — НИКОГДА не коммитить
+config.php
+db.php
+connect.php
+dbconnect.php
+database.php
+.env
+*.local.php
+credentials*
+
+# Дампы и логи базы
+*.sql
+!schema.sql
+*.sqlite
+*.log
+
+# Зависимости JS
+node_modules/
+
+# Загрузки пользователей
+uploads/
+upload/
+
+# Системный мусор
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Commit your application's lock file
+# composer.lock
